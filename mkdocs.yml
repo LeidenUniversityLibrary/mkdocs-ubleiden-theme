@@ -1,0 +1,46 @@
+## Project information
+site_name: UBL MkDocs Theme
+site_url: https://github.com/LeidenUniversityLibrary/mkdocs-ubleiden-theme
+site_description: UBL MkDocs Theme
+
+## Repository
+repo_name: mkdocs-ubl-template
+repo_url: https://github.com/LeidenUniversityLibrary/mkdocs-ubleiden-theme
+edit_uri: ''  #disables edit button
+
+## Configuration
+theme:
+  name: ubleiden
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - abbr
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - footnotes
+
+nav:
+  - Home: index.md
+  - Getting started:
+    - Introduction: introduction.md
+    - Requirements: requirements.md
+    - Installation: installation.md
+    - Customization: customization.md
+    - Publishing your site: publishing-your-site.md
+    - Troubleshooting: troubleshooting.md
+  - More info:
+    - Data privacy: data-privacy.md
+    - About us: about.md
+    - License: license.md
+
+copyright: GNU General Public License v3.0 - Leiden University Libraries
+
+## Social Media
+extra:
+  social:
+    - icon: fontawesome/solid/home
+      link: https://www.universiteitleiden.nl
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/LeidenUniversityLibrary
