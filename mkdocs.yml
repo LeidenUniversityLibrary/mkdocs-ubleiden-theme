@@ -4,7 +4,7 @@ site_url: https://github.com/LeidenUniversityLibrary/mkdocs-ubleiden-theme
 site_description: UBL MkDocs Theme
 
 ## Repository
-repo_name: mkdocs-ubl-template
+repo_name: mkdocs-ubleiden-theme
 repo_url: https://github.com/LeidenUniversityLibrary/mkdocs-ubleiden-theme
 edit_uri: ''  #disables edit button
 
