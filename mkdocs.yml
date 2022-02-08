@@ -24,15 +24,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - Introduction: introduction.md
-    - Requirements: requirements.md
-    - Installation: installation.md
     - Customization: customization.md
-    - Publishing your site: publishing-your-site.md
-    - Troubleshooting: troubleshooting.md
   - More info:
-    - Data privacy: data-privacy.md
-    - About us: about.md
     - License: license.md
 
 copyright: GNU General Public License v3.0 - Leiden University Libraries
