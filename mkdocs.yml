@@ -33,7 +33,7 @@ copyright: GNU General Public License v3.0 - Leiden University Libraries
 ## Social Media
 extra:
   social:
-    - icon: fontawesome/solid/home
+    - icon: fontawesome/solid/house
       link: https://www.universiteitleiden.nl
     - icon: fontawesome/brands/github-alt
       link: https://github.com/LeidenUniversityLibrary
