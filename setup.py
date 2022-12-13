@@ -32,7 +32,9 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     packages=find_packages(),
-    install_requires=['mkdocs-material'],
+    install_requires=[
+        'mkdocs-material>=8.5.11',
+    ],
     include_package_data=True,
     entry_points={
         'mkdocs.themes': [
