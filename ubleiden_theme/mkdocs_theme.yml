@@ -12,6 +12,6 @@ features:
 
 font:
   text: Open Sans
-  code: Ubuntu
+  code: Inconsolata
 
 logo: assets/images/favicon.png
