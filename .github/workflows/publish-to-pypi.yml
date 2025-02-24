@@ -21,6 +21,8 @@ jobs:
         pip install
         hatch
         --user
+    - name: Match git tag to package version
+      run: "[ $(git describe --tags | sed -Ee 's/v(.*)/\\1/') = $(hatch version) ]"
     - name: Build a binary wheel and a source tarball
       run: hatch build
     - name: Store the distribution packages
