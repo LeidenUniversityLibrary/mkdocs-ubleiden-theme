@@ -24,6 +24,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
+    - Usage: usage.md
     - Customization: customization.md
   - More info:
     - License: license.md
