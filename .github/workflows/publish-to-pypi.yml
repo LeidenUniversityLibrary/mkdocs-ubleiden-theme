@@ -34,9 +34,9 @@ jobs:
     - name: Match git tag to package version
       id: versions
       run: |
-        echo "git_version=$(git describe --tags | sed -Ee 's/v(.*)/\\1/')" >> $GITHUB_OUTPUT
+        echo "git_version=$(git describe --tags | sed -Ee 's/v(.*)/\1/')" >> $GITHUB_OUTPUT
         echo "hatch_version=$(hatch version)" >> $GITHUB_OUTPUT
-        if [ $(git describe --tags | sed -Ee 's/v(.*)/\\1/') = $(hatch version) ]
+        if [ $(git describe --tags | sed -Ee 's/v(.*)/\1/') = $(hatch version) ]
         then
           echo "versions_match=true" >> $GITHUB_OUTPUT
         else
