@@ -42,6 +42,13 @@ jobs:
         else
           echo "versions_match=false" >> $GITHUB_OUTPUT
         fi
+    - name: Log versions
+      env:
+        HATCH_VERSION: ${{ steps.versions.outputs.hatch_version }}
+        GIT_VERSION: ${{ steps.versions.outputs.git_version }}
+        VERSIONS_MATCH: ${{ steps.versions.outputs.versions_match }}
+      run: |
+        echo "$HATCH_VERSION" "$GIT_VERSION" "$VERSIONS_MATCH"
     - name: Build a binary wheel and a source tarball
       run: hatch build
     - name: Store the distribution packages
